@@ -1,0 +1,223 @@
+[
+    {
+      "id": 1,
+      "name": "Karate Uniform",
+      "category": "Martial Arts",
+      "subcategory": "Uniforms",
+      "price": 29.99,
+      "stock_quantity": 100,
+      "description": "High-quality karate uniform made from breathable cotton.",
+      "brand": "KaratePro",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Boxing Gloves",
+      "category": "Martial Arts",
+      "subcategory": "Gloves",
+      "price": 45.99,
+      "stock_quantity": 50,
+      "description": "Durable leather boxing gloves for training and competition.",
+      "brand": "BoxingMaster",
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Taekwondo Helmet",
+      "category": "Martial Arts",
+      "subcategory": "Helmets",
+      "price": 35.99,
+      "stock_quantity": 30,
+      "description": "Protective helmet for taekwondo practitioners, with adjustable straps.",
+      "brand": "TKDPro",
+      "rating": 4.3
+    },
+    {
+      "id": 4,
+      "name": "Judo Belt",
+      "category": "Martial Arts",
+      "subcategory": "Belts",
+      "price": 12.99,
+      "stock_quantity": 200,
+      "description": "Standard judo belt available in various colors.",
+      "brand": "JudoMax",
+      "rating": 4.2
+    },
+    {
+      "id": 5,
+      "name": "Muay Thai Shorts",
+      "category": "Martial Arts",
+      "subcategory": "Apparel",
+      "price": 24.99,
+      "stock_quantity": 70,
+      "description": "Comfortable and stylish Muay Thai shorts for training and competition.",
+      "brand": "MuayWear",
+      "rating": 4.6
+    },
+    {
+      "id": 6,
+      "name": "Kickboxing Shin Guards",
+      "category": "Martial Arts",
+      "subcategory": "Protective Gear",
+      "price": 34.99,
+      "stock_quantity": 40,
+      "description": "Protective shin guards for kickboxing with extra padding.",
+      "brand": "KickGuard",
+      "rating": 4.4
+    },
+    {
+      "id": 7,
+      "name": "Wrestling Headgear",
+      "category": "Martial Arts",
+      "subcategory": "Headgear",
+      "price": 29.99,
+      "stock_quantity": 25,
+      "description": "Adjustable wrestling headgear for superior protection.",
+      "brand": "WrestleSafe",
+      "rating": 4.5
+    },
+    {
+      "id": 8,
+      "name": "MMA Gloves",
+      "category": "Martial Arts",
+      "subcategory": "Gloves",
+      "price": 39.99,
+      "stock_quantity": 60,
+      "description": "Lightweight MMA gloves with open fingers for better grip.",
+      "brand": "MMAPro",
+      "rating": 4.8
+    },
+    {
+      "id": 9,
+      "name": "BJJ Gi",
+      "category": "Martial Arts",
+      "subcategory": "Uniforms",
+      "price": 79.99,
+      "stock_quantity": 35,
+      "description": "Premium Brazilian Jiu-Jitsu Gi with reinforced stitching.",
+      "brand": "BJJElite",
+      "rating": 4.9
+    },
+    {
+      "id": 10,
+      "name": "Karate Mitts",
+      "category": "Martial Arts",
+      "subcategory": "Gloves",
+      "price": 19.99,
+      "stock_quantity": 80,
+      "description": "Karate mitts for competition and training.",
+      "brand": "KaratePro",
+      "rating": 4.4
+    },
+    {
+      "id": 11,
+      "name": "Soccer Ball",
+      "category": "Sports",
+      "subcategory": "Soccer",
+      "price": 25.99,
+      "stock_quantity": 100,
+      "description": "Professional quality soccer ball for match and training.",
+      "brand": "SportPro",
+      "rating": 4.6
+    },
+    {
+      "id": 12,
+      "name": "Basketball",
+      "category": "Sports",
+      "subcategory": "Basketball",
+      "price": 29.99,
+      "stock_quantity": 80,
+      "description": "Official size and weight basketball for indoor and outdoor play.",
+      "brand": "HoopsMaster",
+      "rating": 4.7
+    },
+    {
+      "id": 13,
+      "name": "Tennis Racket",
+      "category": "Sports",
+      "subcategory": "Tennis",
+      "price": 59.99,
+      "stock_quantity": 40,
+      "description": "Lightweight tennis racket with excellent grip and balance.",
+      "brand": "RacketChamp",
+      "rating": 4.5
+    },
+    {
+      "id": 14,
+      "name": "Running Shoes",
+      "category": "Sports",
+      "subcategory": "Running",
+      "price": 79.99,
+      "stock_quantity": 60,
+      "description": "Comfortable running shoes with advanced cushioning technology.",
+      "brand": "RunFast",
+      "rating": 4.8
+    },
+    {
+      "id": 15,
+      "name": "Yoga Mat",
+      "category": "Sports",
+      "subcategory": "Yoga",
+      "price": 19.99,
+      "stock_quantity": 90,
+      "description": "Non-slip yoga mat with extra cushioning for comfort.",
+      "brand": "YogaZen",
+      "rating": 4.4
+    },
+    {
+      "id": 16,
+      "name": "Baseball Glove",
+      "category": "Sports",
+      "subcategory": "Baseball",
+      "price": 49.99,
+      "stock_quantity": 50,
+      "description": "High-quality leather baseball glove for all positions.",
+      "brand": "BaseballPro",
+      "rating": 4.6
+    },
+    {
+      "id": 17,
+      "name": "Golf Clubs Set",
+      "category": "Sports",
+      "subcategory": "Golf",
+      "price": 299.99,
+      "stock_quantity": 20,
+      "description": "Complete set of golf clubs with bag and accessories.",
+      "brand": "GolfMaster",
+      "rating": 4.7
+    },
+    {
+      "id": 18,
+      "name": "Swimming Goggles",
+      "category": "Sports",
+      "subcategory": "Swimming",
+      "price": 14.99,
+      "stock_quantity": 120,
+      "description": "Anti-fog and UV protection swimming goggles.",
+      "brand": "SwimFast",
+      "rating": 4.5
+    },
+    {
+      "id": 19,
+      "name": "Volleyball",
+      "category": "Sports",
+      "subcategory": "Volleyball",
+      "price": 22.99,
+      "stock_quantity": 70,
+      "description": "Durable volleyball for indoor and outdoor play.",
+      "brand": "VolleyPro",
+      "rating": 4.4
+    },
+    {
+      "id": 20,
+      "name": "Fitness Tracker",
+      "category": "Sports",
+      "subcategory": "Fitness",
+      "price": 99.99,
+      "stock_quantity": 30,
+      "description": "Advanced fitness tracker with heart rate monitor and GPS.",
+      "brand": "FitTech",
+      "rating": 4.7
+    }
+  ]
+  
