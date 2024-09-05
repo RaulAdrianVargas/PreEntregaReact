@@ -1,6 +1,3 @@
-¡Entendido! Aquí tienes un README que es fácil de copiar y pegar en GitHub. He incluido los detalles básicos y una estructura clara para que sea fácil de entender y utilizar.
-
-````markdown
 # E-Commerce React App
 
 Una aplicación de e-commerce básica construida con React y Bootstrap. Permite a los usuarios explorar productos, agregarlos a un carrito, ajustar la cantidad y completar la compra mediante un formulario.
@@ -36,58 +33,59 @@ Este proyecto es una aplicación de tienda en línea simple que muestra producto
 
 ## Instalación
 
-1. **Clona el repositorio:**
+1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   ```
-````
+   git clone https://github.com/RaulAdrianVargas/ProyectoFinalReact.git
 
-2. **Accede al directorio del proyecto:**
+   ```
+
+2. Accede al directorio del proyecto:
 
    ```bash
-   cd tu-repositorio
+   cd ProyectoFinalReact
+
    ```
 
-3. **Instala las dependencias:**
+3. Instala las dependencias:
 
    ```bash
    npm install
    ```
 
-4. **Configura Firebase:**
+4. Configura Firebase:
 
-   Crea un archivo `firebaseConfig.js` en el directorio `src` con la configuración de tu proyecto Firebase. Consulta la [documentación de Firebase](https://firebase.google.com/docs/web/setup) para obtener las credenciales necesarias.
+Crea un archivo firebaseConfig.js en el directorio src con la configuración de tu proyecto Firebase. Consulta la documentación de Firebase para obtener las credenciales necesarias.
 
-5. **Inicia la aplicación:**
+5. Inicia la aplicación:
 
    ```bash
    npm start
    ```
 
-   La aplicación se abrirá en [http://localhost:3000](http://localhost:3000).
+   La aplicación se abrirá en http://localhost:3000.
 
 ## Uso
 
-1. **Navega por los productos:** Explora la tienda para ver los productos disponibles.
-2. **Agregar al carrito:** Selecciona un producto, ajusta la cantidad y agrégalo al carrito.
-3. **Ver el carrito:** Revisa los productos en el carrito.
-4. **Ajustar cantidades:** Modifica la cantidad de cada producto en el carrito.
-5. **Eliminar productos:** Elimina productos del carrito si lo deseas.
-6. **Completar compra:** Llena el formulario con tus datos y envíalo para finalizar la compra.
+- \*\*Navega por los productos: Explora la tienda para ver los productos disponibles.
+- \*\*Agregar al carrito: Selecciona un producto, ajusta la cantidad y agrégalo al carrito.
+- \*\*Ver el carrito: Revisa los productos en el carrito.
+- \*\*Ajustar cantidades: Modifica la cantidad de cada producto en el carrito.
+- \*\*Eliminar productos: Elimina productos del carrito si lo deseas.
+- \*\*Completar compra: Llena el formulario con tus datos y envíalo para finalizar la compra.
 
 ## Contribución
 
 Si deseas contribuir:
 
-1. **Haz un fork del repositorio.**
-2. **Crea una nueva rama (`git checkout -b mi-nueva-rama`).**
-3. **Realiza tus cambios.**
-4. **Envía un pull request.**
+- \*\*Haz un fork del repositorio.
+- \*\*Crea una nueva rama: git checkout -b mi-nueva-rama.
+- \*\*Realiza tus cambios.
+- \*\*Envía un pull request.
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 ```
 
