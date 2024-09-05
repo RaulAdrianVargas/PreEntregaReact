@@ -1,0 +1,45 @@
+/* Cart.module.css */
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cardImg {
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardBody {
+  padding: 1rem;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.cardText {
+  font-size: 1rem;
+}
+
+.marginBottom {
+  margin-bottom: 1rem;
+}
+
+.marginTop {
+  margin-top: 1rem;
+}
+
+.formControl {
+  border-radius: 0.25rem;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.totalPrice {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

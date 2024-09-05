@@ -1,8 +1,40 @@
-# React + Vite
+# E-Commerce React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación de e-commerce básica construida con React y Bootstrap. Permite a los usuarios explorar productos, agregarlos a un carrito, ajustar la cantidad y completar la compra mediante un formulario.
 
-Currently, two official plugins are available:
+## Índice
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Descripción](#descripción)
+- [Características](#características)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
+
+## Descripción
+
+Este proyecto es una aplicación de tienda en línea simple que muestra productos, permite a los usuarios agregar productos al carrito, ajustar cantidades, y realizar una compra. Utiliza React para la interfaz y Bootstrap para el diseño.
+
+## Características
+
+- **Visualización de Productos:** Muestra una lista de productos con título, imagen, categoría, descripción, precio y stock.
+- **Agregar al Carrito:** Permite a los usuarios añadir productos al carrito con una cantidad seleccionada.
+- **Gestionar el Carrito:** Los usuarios pueden ver, ajustar cantidades o eliminar productos en su carrito.
+- **Formulario de Compra:** Completa un formulario con datos de contacto para finalizar la compra.
+- **Filtrar Productos:** (Si implementado) Filtra productos por categoría.
+
+## Tecnologías Utilizadas
+
+- **React:** Biblioteca para construir la interfaz de usuario.
+- **Bootstrap:** Framework de CSS para diseño responsivo.
+- **Firebase:** Backend para almacenar productos y pedidos.
+- **React Router:** Manejo de rutas en la aplicación.
+
+## Instalación
+
+1. **Clona el repositorio:**
+
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   ```

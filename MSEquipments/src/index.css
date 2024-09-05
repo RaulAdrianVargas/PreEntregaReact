@@ -1,4 +1,44 @@
-span{
-    color: white;
-    padding-left: 0.7rem;
+span {
+  color: white;
+  padding-left: 0.7rem;
+}
+span.carrito {
+  color: black;
+}
+.card {
+  max-width: 400px; /* Ajusta según sea necesario */
+  margin: auto; /* Centra la tarjeta horizontalmente */
+  border-radius: 8px; /* Redondea las esquinas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor de la tarjeta */
+}
+
+.card-img-top {
+  height: 200px; /* Ajusta la altura de la imagen */
+  object-fit: cover; /* Asegura que la imagen cubra el área */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Asegura que el cuerpo de la tarjeta ocupe todo el espacio disponible */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.item-count-container {
+  margin-top: auto; /* Empuja el contador al final del cuerpo de la tarjeta */
 }
