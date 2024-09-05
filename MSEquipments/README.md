@@ -1,6 +1,4 @@
-¡Entendido! Aquí tienes un README que es fácil de copiar y pegar en GitHub. He incluido los detalles básicos y una estructura clara para que sea fácil de entender y utilizar.
 
-````markdown
 # E-Commerce React App
 
 Una aplicación de e-commerce básica construida con React y Bootstrap. Permite a los usuarios explorar productos, agregarlos a un carrito, ajustar la cantidad y completar la compra mediante un formulario.
