@@ -1,13 +1,12 @@
 import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Container from "react-bootstrap/Container";
 import { getFirestore, doc, getDoc } from "firebase/firestore";
-import { ItemCount } from "./ItemCount";
 import { ItemsContext } from "../context/ItemsContext";
-import { Card, Spinner } from "react-bootstrap";
+import { ItemDetail } from "./ItemDetail";
+import { Container, Spinner } from "react-bootstrap";
 
 export const ItemDetailContainer = () => {
-  const [item, setItem] = useState([]);
+  const [item, setItem] = useState(null);
   const [loading, setLoading] = useState(true);
   const { id } = useParams();
   const { addItem } = useContext(ItemsContext);
@@ -18,13 +17,19 @@ export const ItemDetailContainer = () => {
 
     getDoc(refDoc)
       .then((snapshot) => {
-        setItem({ ...snapshot.data(), id: snapshot.id });
+        if (snapshot.exists()) {
+          setItem({ ...snapshot.data(), id: snapshot.id });
+        } else {
+          setItem(null);
+        }
       })
       .finally(() => setLoading(false));
   }, [id]);
 
   const onAdd = (quantity) => {
-    addItem({ ...item, quantity });
+    if (item) {
+      addItem({ ...item, quantity });
+    }
   };
 
   if (loading) {
@@ -45,31 +50,7 @@ export const ItemDetailContainer = () => {
 
   return (
     <Container className="mt-4">
-      <Card className="shadow-lg mx-auto">
-        <Card.Img
-          variant="top"
-          src={item.image || "https://via.placeholder.com/400x200"}
-          className="card-img-top"
-        />
-        <Card.Body className="d-flex flex-column">
-          <Card.Title className="card-title">{item.title}</Card.Title>
-          <Card.Subtitle className="mb-2 text-muted card-subtitle">
-            Category: {item.categoryId}
-          </Card.Subtitle>
-          <Card.Text className="card-text">
-            <strong>Description:</strong> {item.description}
-          </Card.Text>
-          <Card.Text className="card-text">
-            <strong>Price:</strong> ${item.price}
-          </Card.Text>
-          <Card.Text className="card-text">
-            <strong>Stock:</strong> {item.stock}
-          </Card.Text>
-          <div className="item-count-container">
-            <ItemCount stock={item.stock} onAdd={onAdd} />
-          </div>
-        </Card.Body>
-      </Card>
+      <ItemDetail item={item} onAdd={onAdd} />
     </Container>
   );
 };
