@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c9ddaade4d047baf3313ab8c601228f6ba33f083
 # E-Commerce React App
 
 Una aplicación de e-commerce básica construida con React y Bootstrap. Permite a los usuarios explorar productos, agregarlos a un carrito, ajustar la cantidad y completar la compra mediante un formulario.
